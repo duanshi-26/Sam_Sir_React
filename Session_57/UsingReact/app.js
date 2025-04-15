@@ -11,5 +11,4 @@ let ele = React.createElement('p', {id:"para", className: "graph"}, "Writing ele
 
 // ab elemt ko root par render kardo using ReactDOM
 
-let r = ReactDOM.createRoot(root);
-r.render(ele);
+ReactDOM.createRoot(root).render(ele);
